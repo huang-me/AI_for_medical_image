@@ -24,18 +24,18 @@ In this lab, we're building a model to classfy pneumonia and normal case using d
     > The highest accuracy of ResNet18 is $91.51\%$ and the F1-score is $0.9335$ in **epoch 21**.
 - Ploting the comparison figure
     - ResNet18
-        - Training and testing accuracy curve
+        - Training and testing accuracy curve  
             ![](images/resnet18/accuracy.png)
-        - Testing F1-score curve
+        - Testing F1-score curve  
             ![](images/resnet18/f1_score.png)
-        - Highest testing accuracy heatmap
+        - Highest testing accuracy heatmap  
             ![](images/resnet18/confusion_matrix.png)
     - ResNet50
-        - Training and testing accuracy curve
+        - Training and testing accuracy curve  
             ![](images/resnet50/accuracy.png)
-        - Testing F1-score curve
+        - Testing F1-score curve  
             ![](images/resnet50/f1_score.png)
-        - Highest testing accuracy heatmap
+        - Highest testing accuracy heatmap  
             ![](images/resnet50/confusion_matrix.png)
 # Discussion
 - Eventhough ResNet50 have more parameter, it didn't have better accuracy. Therefore, we can say that the number of parameters doesn't always have positive relation to the accuracy of result.
